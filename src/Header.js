@@ -1,11 +1,13 @@
+import { NavLink } from 'react-router-dom';
+
 function Header(){
     return (
         <header>
-            <h1><a href="#">LOGO</a></h1>
+            <h1><NavLink exact activestyle={{opacity: 1}} to="/">LOGO</NavLink></h1>
             <ul id="gnb">
-                <li><a href="#">YOUTUBE</a></li>
-                <li><a href="#">FlICKR</a></li>
-                <li><a href="#">LOGIN</a></li>
+                <li><NavLink exact activestyle={{opacity: 1}} to="Youtube">YOUTUBE</NavLink></li>
+                <li><NavLink exact activestyle={{opacity: 1}} to="Flickr">FlICKR</NavLink></li>
+                <li><NavLink exact activestyle={{opacity: 1}} to="Join">JOIN</NavLink></li>
             </ul>
         </header>
     )
