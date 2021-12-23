@@ -1,6 +1,15 @@
 function Join(){
     return(
-        <main>Join</main>
+        <>
+            <div className="visual">
+                <h1>VISUAL</h1>
+            </div>
+            <main>
+                <div className="inner">
+                    <h1>Join</h1>
+                </div>
+            </main>
+        </>
     )
 }
 

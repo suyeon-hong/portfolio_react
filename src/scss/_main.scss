@@ -1,0 +1,25 @@
+#visual{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    position: relative;
+    
+    h1{
+        font: bold 200px/1 'arial';
+        color: transparent;
+        -webkit-text-stroke: 2px #fff;
+        position: relative;
+        z-index: 2;
+    }
+    .pic{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 60%;
+        height: 50%;
+        background: #555;
+    }
+}
