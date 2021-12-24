@@ -4,6 +4,7 @@ import Main from './components/Main';
 import Youtube from './components/Youtube';
 import Flickr from './components/Flickr';
 import Join from './components/Join';
+import Footer from './components/Footer';
 import { Route } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Route exact path="/youtube" component={Youtube}></Route>
       <Route exact path="/flickr" component={Flickr}></Route>
       <Route exact path="/join" component={Join}></Route>
+
+      <Footer />
     </>
   );
 }
