@@ -1,9 +1,11 @@
+const vidSrc = `${process.env.PUBLIC_URL}/img/visual.mp4`;
+
 function Main(){
     return(
         <>
             <figure id="visual">
+                <video src={vidSrc} muted autoPlay loop></video>
                 <h1>VISUAL</h1>
-                <div className="pic"></div>
             </figure>
             <main id="main">
                 <div className="inner">
