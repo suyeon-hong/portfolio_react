@@ -9,3 +9,15 @@ ul, ol, li{
 a{
     text-decoration: none;
 }
+.wrap{
+    &::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    article{
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}

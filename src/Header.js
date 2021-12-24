@@ -11,7 +11,7 @@ function Header(){
                     </NavLink></h1>
                 <ul id="gnb">
                     <li><NavLink exact activeStyle={{opacity: 1}} to="Youtube">YOUTUBE</NavLink></li>
-                    <li><NavLink exact activeStyle={{opacity: 1}} to="Flickr">FlICKR</NavLink></li>
+                    <li><NavLink exact activeStyle={{opacity: 1}} to="Flickr">FLICKR</NavLink></li>
                     <li><NavLink exact activeStyle={{opacity: 1}} to="Join">JOIN</NavLink></li>
                 </ul>
             </div>
