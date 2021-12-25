@@ -62,6 +62,16 @@ header {
           header .inner #gnb li a:hover {
             opacity: 1; }
 
+body {
+  background: #333; }
+
+main {
+  width: 100%; }
+  main .inner {
+    width: 1180px;
+    margin: 0 auto;
+    padding: 200px 0; }
+
 #visual {
   width: 100%;
   height: 100vh;
@@ -196,28 +206,108 @@ header {
   #main .contents article:last-child {
     margin-bottom: 0; }
 
-body {
-  background: #333; }
+.join {
+  height: calc(100vh - 50px);
+  overflow: hidden; }
+  .join .inner {
+    height: 100%;
+    padding-bottom: 100px;
+    display: flex; }
+    .join .inner .left {
+      width: 40%;
+      height: 100%;
+      background: #bbb;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .join .inner .left h1 {
+        font: bold 30px/1 'arial';
+        color: #fff;
+        margin-bottom: 20px; }
+      .join .inner .left p {
+        width: 80%;
+        font: 14px/1.4 'arial';
+        color: #fff;
+        opacity: 0.6;
+        text-align: center;
+        margin-bottom: 30px; }
+      .join .inner .left h2 {
+        font: 14px/1.2 'arial';
+        color: #fff;
+        opacity: 0.7;
+        margin-bottom: 20px; }
+      .join .inner .left a {
+        display: block;
+        width: 120px;
+        height: 35px;
+        border-radius: 6px;
+        border: 1px solid #eee;
+        font: 14px/33px 'arial';
+        color: #fff;
+        text-align: center;
+        transition: .5s; }
+        .join .inner .left a:hover {
+          background: #eee;
+          color: #888; }
+    .join .inner .right {
+      width: 60%;
+      height: 100%;
+      padding: 60px 50px; }
+      .join .inner .right form {
+        width: 100%;
+        height: 100%; }
+        .join .inner .right form fieldset {
+          width: 100%;
+          height: 100%;
+          border: none; }
+          .join .inner .right form fieldset legend {
+            font-size: 0;
+            text-indent: -9999px; }
+          .join .inner .right form fieldset ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; }
+            .join .inner .right form fieldset ul li {
+              width: 100%; }
+              .join .inner .right form fieldset ul li:nth-of-type(1) div {
+                width: 50%;
+                display: inline-block; }
+                .join .inner .right form fieldset ul li:nth-of-type(1) div:nth-of-type(1) {
+                  width: 40%;
+                  margin-right: 10%; }
+              .join .inner .right form fieldset ul li label {
+                display: block;
+                margin-bottom: 5px;
+                font: 15px/1 'arial';
+                color: #fff; }
+              .join .inner .right form fieldset ul li input[type=text], .join .inner .right form fieldset ul li input[type=password] {
+                width: 100%;
+                height: 50px;
+                padding: 10px;
+                font: 16px/50px 'arial';
+                color: #111; }
+                .join .inner .right form fieldset ul li input[type=text]:focus, .join .inner .right form fieldset ul li input[type=password]:focus {
+                  outline: none; }
+              .join .inner .right form fieldset ul li input[type=submit] {
+                width: 100%;
+                height: 50px;
+                border: none;
+                background: orangered;
+                font: 14px/50px 'arial';
+                color: #fff;
+                opacity: 0.7;
+                transition: .5s;
+                cursor: pointer; }
+                .join .inner .right form fieldset ul li input[type=submit]:hover {
+                  opacity: 1; }
 
-.visual {
+footer {
   width: 100%;
-  height: 500px;
-  background: #555;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-main {
-  width: 100%; }
-  main .inner {
-    width: 1180px;
-    margin: 0 auto;
-    padding: 200px 0; }
-
-p {
-  width: 100%;
-  padding: 30px 0;
-  font: lighter 10px/1 'arial';
+  height: 50px;
+  font: lighter 10px/50px 'arial';
   color: #fff;
   opacity: 0.6;
   letter-spacing: 2px;
