@@ -49,8 +49,20 @@
     }
     .loadingImg{
         display: block;
-        width: 300px;
+        width: 200px;
         margin: 0 auto;
         padding-top: 100px;
+    }
+}
+
+@media screen and(max-width:539px) {
+    .gallery{
+        ul li{
+            width: 48%;
+
+            .pic{
+                height: 150px;
+            }
+        }
     }
 }

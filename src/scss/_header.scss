@@ -60,3 +60,31 @@ header{
         }
     }
 }
+
+@media screen and(max-width:1179px) {
+    header{
+        height: 120px;
+
+        .inner{
+            width: 100%;
+
+            #gnb{
+                right: 30px;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:539px) {
+    header{
+        .inner{
+            #gnb{
+                right: 10px;
+
+                li a{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

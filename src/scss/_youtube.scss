@@ -22,10 +22,29 @@
             }
         }
     }
-    img{
+    .loadingImg{
         display: block;
-        width: 300px;
+        width: 200px;
         margin: 0 auto;
         padding-top: 100px;
+    }
+}
+
+@media screen and(max-width:980px){
+    .youtube{
+        ul li{
+            width: 100%;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and(max-width:539px){
+    .youtube{
+        ul li{
+            height: 20vh;
+            margin-bottom: 10px;
+        }
     }
 }

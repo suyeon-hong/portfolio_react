@@ -17,6 +17,23 @@ main{
     }
 }
 
+@media screen and (max-width: 1179px){
+    main{
+        .inner{
+            width: 100%;
+            padding: 200px 30px 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 539px){
+    main{
+        .inner{
+            padding: 150px 10px 50px;
+        }
+    }
+}
+
 @import "main";
 @import "youtube";
 @import "gallery";
