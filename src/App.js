@@ -1,5 +1,5 @@
 import './css/style.css';
-import Header from './Header.js';
+import Header from './components/Header.js';
 import Main from './components/Main';
 import Youtube from './components/Youtube';
 import Gallery from './components/Gallery';
