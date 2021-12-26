@@ -6,13 +6,13 @@ function Header(){
     return (
         <header>
             <div className='inner'>
-                <h1><NavLink exact activeStyle={{opacity: 1}} to="/portfolio_react/">
+                <h1><NavLink exact activeStyle={{opacity: 1}} to="/">
                         <img src={imgSrc} alt="logo image" />
                     </NavLink></h1>
                 <ul id="gnb">
-                    <li><NavLink exact activeStyle={{opacity: 1}} to="/portfolio_react/Youtube">YOUTUBE</NavLink></li>
-                    <li><NavLink exact activeStyle={{opacity: 1}} to="/portfolio_react/Flickr">FLICKR</NavLink></li>
-                    <li><NavLink exact activeStyle={{opacity: 1}} to="/portfolio_react/Join">JOIN</NavLink></li>
+                    <li><NavLink exact activeStyle={{opacity: 1}} to="/Youtube">YOUTUBE</NavLink></li>
+                    <li><NavLink exact activeStyle={{opacity: 1}} to="/Flickr">FLICKR</NavLink></li>
+                    <li><NavLink exact activeStyle={{opacity: 1}} to="/Join">JOIN</NavLink></li>
                 </ul>
             </div>
         </header>
