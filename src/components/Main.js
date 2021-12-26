@@ -10,19 +10,19 @@ function Main(){
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni molestias facilis repellat quas rem repellendus nostrum doloremque veniam consectetur, animi natus commodi itaque enim deleniti nulla maiores eius cum. Porro magni molestias facilis repellat quas rem repellendus nostrum doloremque veniam consectetur.</p>
                         <div className="wrap">
                             <article>
-                                <h2>1</h2>
+                                <h2>319</h2>
                                 <h3>IDEA</h3>
                             </article>
                             <article>
-                                <h2>2</h2>
+                                <h2>230</h2>
                                 <h3>INSTRUCTORS</h3>
                             </article>
                             <article>
-                                <h2>3</h2>
+                                <h2>215</h2>
                                 <h3>DIRECTIONS</h3>
                             </article>
                             <article>
-                                <h2>4</h2>
+                                <h2>198</h2>
                                 <h3>AWARDS</h3>
                             </article>
                         </div>

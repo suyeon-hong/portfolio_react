@@ -1,8 +1,10 @@
 function Join(){
+    const imgSrc = `${process.env.PUBLIC_URL}/img/join.jpg`;
+
     return(
         <main className="join">
             <div className="inner">
-                <div className="left">
+                <div className="left" style={{backgroundImage:`url(${imgSrc})`}}>
                     <h1>Sign Up</h1>
                     <p>Please enter your details to sign up and be part of our great community.</p>
                     <h2>Already have an account?</h2>
