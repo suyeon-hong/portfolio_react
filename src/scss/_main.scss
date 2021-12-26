@@ -3,7 +3,7 @@
     height: 100vh;
     background: #000;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     position: relative;
     
@@ -15,22 +15,15 @@
         height: 100%;
         object-fit: cover;
     }
-    h1{
-        font: bold 80px/1 'arial';
-        color: transparent;
-        -webkit-text-stroke: 1px orangered;
-        position: relative;
-        z-index: 1;
-    }
-}
-
-#main{
     .intro{
-        margin-bottom: 200px;
+        width: 50%;
+        margin-bottom: 100px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        position: relative;
+        z-index: 2;
 
         h1{
             font: 30px/1 'arial';
@@ -38,7 +31,6 @@
             margin-bottom: 30px;
         }
         p{
-            width: 60%;
             margin: 0 auto;
             font: 100 11px/1.4 'arial';
             color: #ddd;
@@ -47,7 +39,7 @@
             margin-bottom: 50px;
         }
         .wrap{
-            width: 80%;
+            width: 100%;
             display: flex;
     
             article{
@@ -67,6 +59,9 @@
             }
         }
     }
+}
+
+#main{
     .contents{
         article{
             margin-bottom: 100px;

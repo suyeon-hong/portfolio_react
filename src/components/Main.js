@@ -5,11 +5,7 @@ function Main(){
         <>
             <figure id="visual">
                 <video src={vidSrc} muted autoPlay loop></video>
-                <h1>VISUAL</h1>
-            </figure>
-            <main id="main">
-                <div className="inner">
-                    <div className="intro">
+                <div className="intro">
                         <h1>Doing The Right Things</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni molestias facilis repellat quas rem repellendus nostrum doloremque veniam consectetur, animi natus commodi itaque enim deleniti nulla maiores eius cum. Porro magni molestias facilis repellat quas rem repellendus nostrum doloremque veniam consectetur.</p>
                         <div className="wrap">
@@ -31,6 +27,9 @@ function Main(){
                             </article>
                         </div>
                     </div>
+            </figure>
+            <main id="main">
+                <div className="inner">
                     <div className="contents">
                         <article>
                             <div className="wrap">
