@@ -1,4 +1,5 @@
-const vidSrc = `${process.env.PUBLIC_URL}/img/visual.mp4`;
+const publicUrl = process.env.PUBLIC_URL;
+const vidSrc = `${publicUrl}/img/visual.mp4`;
 
 function Main(){
     return(
@@ -40,12 +41,16 @@ function Main(){
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque, minima ea inventore esse non. Impedit deserunt, id cumque accusantium sequi facere tenetur, nulla necessitatibus ex et facilis, tempora iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aspernatur animi eius nemo reiciendis vel quae assumenda temporibus numquam incidunt.</p>
                                     <a href="#">read more<span></span></a>
                                 </div>
-                                <div className="pic"></div>
+                                <div className="pic">
+                                    <img src={`${publicUrl}/img/content1.jpg`} />
+                                </div>
                             </div>
                         </article>
                         <article>
                             <div className="wrap">
-                                <div className="pic"></div>
+                                <div className="pic">
+                                    <img src={`${publicUrl}/img/content2.jpg`} />
+                                </div>
                                 <div className="con">
                                     <span className="num">02</span>
                                     <h1>GET STARTED</h1>
@@ -64,7 +69,9 @@ function Main(){
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque, minima ea inventore esse non. Impedit deserunt, id cumque accusantium sequi facere tenetur, nulla necessitatibus ex et facilis, tempora iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aspernatur animi eius nemo reiciendis vel quae assumenda temporibus numquam incidunt.</p>
                                     <a href="#">read more<span></span></a>
                                 </div>
-                                <div className="pic"></div>
+                                <div className="pic">
+                                    <img src={`${publicUrl}/img/content3.jpg`} />
+                                </div>
                             </div>
                         </article>
                     </div>
