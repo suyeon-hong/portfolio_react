@@ -9,7 +9,7 @@ import { Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Route>
+    <>
       <Header />
 
       <Route exact path="/youtube" component={Youtube}></Route>
