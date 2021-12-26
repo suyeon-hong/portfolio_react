@@ -1,14 +1,15 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-const base = "https://www.flickr.com/services/rest/?";
-const method = "flickr.interestingness.getList";
-const key = "21be590b77fb11bd12a7266f99a2f2d8";
-const perPage = 9;
-const url = `${base}method=${method}&api_key=${key}&per_page=${perPage}&format=json&nojsoncallback=1&privacy_filter=1`;
-const loadingImg = `${process.env.PUBLIC_URL}/img/loading.gif`;
 
 function Gallery(){
+    const base = "https://www.flickr.com/services/rest/?";
+    const method = "flickr.interestingness.getList";
+    const key = "21be590b77fb11bd12a7266f99a2f2d8";
+    const perPage = 9;
+    const url = `${base}method=${method}&api_key=${key}&per_page=${perPage}&format=json&nojsoncallback=1&privacy_filter=1`;
+    const loadingImg = `${process.env.PUBLIC_URL}/img/loading.gif`;
+
     let [pics, setPics] = useState([]);
     let [done, setDone] = useState(false);
 
