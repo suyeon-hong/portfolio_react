@@ -4,19 +4,21 @@
 @import "header";
 
 body{
-    background: #333;
+    background: #111;
 }
 main{
     width: 100%;
 
     .inner{
         width: 1180px;
+        min-height: calc(100vh - 50px);
         margin: 0 auto;
-        padding: 200px 0;
+        padding: 200px 0 100px;
     }
 }
 
 @import "main";
+@import "gallery";
 @import "join";
 
 @import "footer";
