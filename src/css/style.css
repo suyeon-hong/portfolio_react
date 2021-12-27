@@ -260,10 +260,8 @@ main {
     #main .contents article .pic {
       width: 100%;
       height: 150px; }
-    #main .contents article:nth-of-type(2) .con {
-      order: 1; }
-    #main .contents article:nth-of-type(2) .pic {
-      order: 2; } }
+    #main .contents article:nth-of-type(2) {
+      flex-direction: column-reverse; } }
 .youtube ul {
   width: 100%;
   height: 100%;

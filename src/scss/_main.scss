@@ -236,12 +236,7 @@
                 height: 150px;
             }
             &:nth-of-type(2){
-                .con{
-                    order: 1;
-                }
-                .pic{
-                    order: 2;
-                }
+                flex-direction: column-reverse;
             }
         }
     }
